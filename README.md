@@ -9,4 +9,4 @@ This is a very simple web-app that lets you input the local IP address of an [HD
 
 ## Usage
 
-You can use the app by going [here](http://recognition101.github.io/vlchdhomerun/).
+Download the app (using the green button to the top right), unzip it, and double click the index.html file.
