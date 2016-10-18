@@ -1,0 +1,103 @@
+body, input, button {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: -apple-system-body,
+        "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: -apple-system-headline, -apple-system-body,
+        "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+/** Generic Buttons **/
+
+.ip-load, .channel-linkitem, .channel-hd {
+    display: inline-block;
+    padding: 2px 6px 3px 6px;
+
+    color: #157AFB;
+    border: 1px solid #157AFB;
+
+    list-style: none;
+    background: linear-gradient(to top, #E0E0E0, #F0F0F0); 
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/** IP Address Form **/
+
+.ip {
+    margin-bottom: 4px;
+    padding: 10px;
+    background-color: #EEEEEE;
+
+    text-align: center;
+}
+
+.ip-field {
+    width: 115px;
+    text-align: center;
+}
+
+/** Channels **/
+
+.channels {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+.channels > li {
+    display: inline-block;
+    margin: 4px;
+    padding: 10px 4px 10px 4px;
+    width: 250px;
+
+    background-color: #EEEEEE;
+    list-style: none;
+}
+
+.channel-namerow {
+    margin: 0 0 10px 0;
+    height: 30px;
+}
+
+.channel-name {
+    font-size: 24px;
+}
+
+.channel-hd {
+    position: relative;
+    top: -4px;
+    margin-left: 10px;
+
+    color: #707070;
+    border-color: #707070;
+}
+
+.channel-links {
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+.channel-linkitem {
+    margin: 4px;
+}
+
+.channel-linkitem > a {
+    color: #157AFB;
+    text-decoration: none;
+}
